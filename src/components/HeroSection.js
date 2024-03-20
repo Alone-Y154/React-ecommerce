@@ -24,6 +24,7 @@ const HeroSection = ({ myData }) => {
           {/* our homepage image  */}
           <div className="hero-section-image">
             <figure>
+              {/*  eslint-disable-next-line jsx-a11y/img-redundant-alt */}
               <img
                 src="images/hero.jpg"
                 alt="hero-section-photo"

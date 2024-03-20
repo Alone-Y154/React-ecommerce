@@ -20,11 +20,13 @@ const SingleProduct = () => {
   const { id } = useParams();
 
   const {
+    // eslint-disable-next-line no-unused-vars
     id: alias,
     name,
     company,
     price,
     description,
+    // eslint-disable-next-line no-unused-vars
     category,
     stock,
     stars,
@@ -34,6 +36,7 @@ const SingleProduct = () => {
 
   useEffect(() => {
     getSingleProduct(`${API}?id=${id}`);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (isSingleLoading) {

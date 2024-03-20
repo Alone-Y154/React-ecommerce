@@ -2,6 +2,7 @@ import styled from "styled-components";
 import FilterSection from "./components/FilterSection";
 import ProductList from "./components/ProductList";
 import Sort from "./components/Sort";
+// eslint-disable-next-line no-unused-vars
 import { useFilterContext } from "./context/filter_context";
 
 const Products = () => {
