@@ -127,6 +127,7 @@ const filterReducer = (state, action) => {
 
       if (price === 0) {
         tempFilterProduct = tempFilterProduct.filter(
+          // eslint-disable-next-line eqeqeq
           (curElem) => curElem.price == price
         );
       } else {
